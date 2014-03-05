@@ -1,5 +1,5 @@
 /**
- * StateController
+ * WimdataController
  *
  * @module      :: Controller
  * @description	:: A set of functions called `actions`.
@@ -17,10 +17,12 @@
 
 module.exports = {
     
- 	
+  
+
+
   /**
    * Overrides for the settings in `config/controllers.js`
-   * (specific to StateController)
+   * (specific to WimdataController)
    */
   _config: {}
 

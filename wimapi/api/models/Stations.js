@@ -1,5 +1,6 @@
 var Stations = {
 
+  adapter: 'lor_postgres',
   attributes: {
   	fips: 'STRING',
   	station_id: 'STRING',

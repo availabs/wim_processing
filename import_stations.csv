@@ -1,0 +1,1 @@
+ mysqlimport  --fields-terminated-by=, --fields-enclosed-by=\" --columns='state,station_id,lat,lng' --local -h lor.availabs.org -u passenger --password=am1238wk WIM count_stations.csv
