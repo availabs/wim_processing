@@ -1,4 +1,4 @@
-var Stations = {
+module.exports = {
 
   adapter: 'lor_postgres',
   attributes: {

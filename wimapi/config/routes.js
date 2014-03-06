@@ -44,6 +44,37 @@ module.exports.routes = {
       headers: 'content-type,X-Requested-With'
     }
   },
+  '/stations/:station_id/uptime':{
+    controller : 'StationsController',
+    action : 'uptimeCalc',
+    cors: {
+      origin: '*',
+      methods: 'GET, POST, PUT, DELETE, OPTIONS, HEAD',
+      headers: 'content-type,X-Requested-With'
+    }
+  },
+
+   '/stations/hasData':{
+    controller : 'StationsController',
+    action : 'hasData',
+    cors: {
+      origin: '*',
+      methods: 'GET, POST, PUT, DELETE, OPTIONS, HEAD',
+      headers: 'content-type,X-Requested-With'
+    }
+  },
+
+    '/stations/:station_id/vehicle_class':{
+    controller : 'StationsController',
+    action : 'vehicleClass',
+    cors: {
+      origin: '*',
+      methods: 'GET, POST, PUT, DELETE, OPTIONS, HEAD',
+      headers: 'content-type,X-Requested-With'
+    }
+  },
+
+
 
   /*
   // But what if you want your home page to display

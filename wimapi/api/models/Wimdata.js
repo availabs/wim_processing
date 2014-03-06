@@ -8,7 +8,7 @@
 
 module.exports = {
 
-  adapter:'lor_postgres',
+  adapter:'lor_mysql',
   attributes: {
   	
   	/* e.g.
